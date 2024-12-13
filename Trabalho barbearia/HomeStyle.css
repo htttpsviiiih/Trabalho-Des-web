@@ -58,3 +58,39 @@ body{
     font-size:larger;
 
 }
+.caixa{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.texto{
+    text-align: center;
+}
+
+.caixinha{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: #1e222b;
+    border-radius: 40px;
+    border: solid 1px #636161;
+}
+.caixinha img{
+    margin-top: 20%;
+    width: 80px;
+    
+    
+}
+.caixinha p {
+    font-size: small;
+    margin-bottom: 10px;
+}
+.caixinha:hover{
+    background-color: #343b4b;
+}
